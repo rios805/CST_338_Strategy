@@ -51,4 +51,10 @@ public class Monster {
     public int hashCode() {
         return Objects.hash(getHp(), getXp(), getMaxHP(), getItems());
     }
+
+    public String toString() {
+        return "hp=" + hp + "/" + maxHP;
+    }
+
+
 }
