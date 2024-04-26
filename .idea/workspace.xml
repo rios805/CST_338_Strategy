@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00675f4a-097b-4973-8b0c-288939923ed4" name="Changes" comment="Initial start to Strategy">
-      <change afterPath="$PROJECT_DIR$/src/Ability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Attack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MeleeAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RangedAttack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_13_2024_19_53__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_13_2024_19_53__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_13_2024_19_53__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_13_2024_19_53__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+    <list default="true" id="00675f4a-097b-4973-8b0c-288939923ed4" name="Changes" comment="Added Ability and Attack interfaces, and MeleeAttack/RangedAttack classes.">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_13_2024_19_53_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_13_2024_19_53_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_13_2024_19_53__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_13_2024_19_53__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abilities/Ability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Attack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abilities/Attack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Imp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monsters/Imp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kobold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monsters/Kobold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeleeAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abilities/MeleeAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monsters/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RangedAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abilities/RangedAttack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +57,7 @@
     "Application.Driver.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Strategy__02",
+    "git-widget-placeholder": "Strategy__03",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -78,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713061523175</updated>
       <workItem from="1713061524635" duration="524000" />
+      <workItem from="1714111174666" duration="4417000" />
     </task>
     <task id="LOCAL-00001" summary="Initial start to Strategy">
       <option name="closed" value="true" />
@@ -87,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713061828350</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Ability and Attack interfaces, and MeleeAttack/RangedAttack classes.">
+      <option name="closed" value="true" />
+      <created>1713676493806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713676493807</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial start to Strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial start to Strategy" />
+    <MESSAGE value="Added Ability and Attack interfaces, and MeleeAttack/RangedAttack classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Ability and Attack interfaces, and MeleeAttack/RangedAttack classes." />
   </component>
 </project>
